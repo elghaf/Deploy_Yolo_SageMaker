@@ -2,6 +2,9 @@ import numpy as np
 import torch, os, json, io, cv2, time
 from ultralytics import YOLO
 
+
+
+
 def model_fn(model_dir):
     print("Executing model_fn from inference.py ...")
     env = os.environ
